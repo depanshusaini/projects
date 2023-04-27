@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner-text{
+    height: 100vh;
+    background: linear-gradient(rgba(255, 75, 25, 0.8),rgba(244, 143, 20, 0.5));
+}
+.navbar-nav{
+    margin-top: 5px;
+}
+.navbar-nav li {
+    padding: 20px;
+}
+.navbar-nav li a{
+    color: black;
+    font-weight: 500;
+}
+.banner-text .banner-left-box{
+    padding-top: 200px;
+}
+.banner-text h1{
+    font-family:serif;
+    font-weight: 600;
+    font-size: 80px;  
+  text-shadow: 2px 2px #fff
+}
+.banner-text .text-box{
+    box-sizing: border-box;
+    font-size: 12px;
+    width: 350px;
+    font-weight: 500;
+    border: 1px dashed black;
+    padding: 15px 0 0 5px;
+}
+.banner-text .col-md-8{
+    background-image: url(../img/bannerimg.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text .alert-box{
+    width: 100px;
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    padding: 12px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px dashed whitesmoke;
+    margin-top: 450px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.banner-text .alert-box span{
+    font-size: 30px;
+}
+.try-it-today {
+    padding-top: 100px;
+}
+.try-it-today .first img{
+    width: 500px;
+    position: relative;
+}
+.try-it-today .first p{
+    position: absolute;
+    top: 5%;
+    color: #fff;
+    left:5%;
+}
+.try-it-today .first p span{
+   font-size: 25px;
+   font-weight:600 ;
+}
+.try-it-today .second .img1 img{
+    position: relative;
+    width: 500px;
+    margin-top: 10px;
+
+}
+.try-it-today .second .img1 p{
+    position: absolute;
+    top: 5%;
+    color: #fff;
+    left:5%;
+  
+}
+.try-it-today .second p span{
+    font-size: 18px;
+    font-weight:600 ;
+ }
+.try-it-today .second .img2 img{
+    position: relative;
+    width: 500px;
+    margin-top: 10px;
+}
+.try-it-today .second .img2 p{
+    position: absolute;
+    top: 55%;
+    color: #fff;
+    left:5%;
+  
+}
+.choose{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.choose .text-center span{
+    background-color: orangered;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.choose .col-md-4 img{
+    width: 300px;
+    
+}
+.choose .col-md-4 .btn{
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+
+}
+.choose .col-md-4 .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upcoming-events h5{
+    color: brown;
+}
+.upcoming-events h1{
+    color: rgb(58, 16, 16);
+    font-weight: 600;
+}
+.upcoming-events p{
+    color: #555;
+}
+.upcoming-events img{
+    width: 500px;
+    height: 300px;
+}
+.booking{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.booking h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form label input[type="text"],input[type="email"],input[type="text"],.btn{
+    width: 350px;
+    margin: 10px;
+    padding: 10px 15px;
+    outline: none;
+}
+form .btn{
+    background-color: red;
+    color: #fff;
+    width: 736px;
+}
+form{
+    box-shadow: 0 20px 24px 0 #eee;
+    padding: 10px;
+}
+form::before{
+    content: url(../img/Bottle.png);
+    position: absolute;
+    left: 15%;
+    top: 360%;
+    width: 50px;
+}
+.booking::before{
+    top: 320%;
+    position: absolute;
+    content: url(../img/Burger6.png);
+}
+.booking::after{
+    top: 370%;
+    right: 0;
+    position: absolute;
+    content: url(../img/burgerplate.png);
+
+}
+.footer .cont{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: url(../img/footer.jpg);
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.footer .row .logo img{
+    margin-top: 50px;
+    margin-left: 10px;
+    filter: brightness(0) invert(1);
+}
+.footer .col-md-4 p{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.footer .icon{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.footer .icon span{
+    padding:10px;
+    margin-top: -50px;
+}
+.footer .icon span .fa{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+.footer .text-center{
+    margin-top: 120px;
+}
+.footer .txt{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
+/* keyframe */
+
+@media only screen and (max-width:750px){
+    .header{
+        background-color: #eee;
+    }
+    .navbar-nav li {
+        padding: 5px;
+        border-bottom:1px solid rgba(76, 76, 76, 0.252) ;
+    }
+    .banner-text .col-md-8{
+        background-image:none;  
+    }
+    .banner-text{
+        height: 70vh;
+        background: linear-gradient(rgba(255, 75, 25, 0.8),rgba(244, 143, 20, 0.5));
+    }
+    .banner-text .alert-box{
+        display: none;
+    }
+    .try-it-today .first img{
+        width: 100%;
+    }  
+   .try-it-today .second .img1 img{
+    width: 100%;
+   }
+   .try-it-today .second .img2 img{
+    width: 100%;
+   }
+   .choose .col-md-4 img{
+    width: 100%;
+   }
+   
+  .upcoming-events img{
+    width: 100%;
+   }
+
+  form .btn{
+    width: 353px;
+  }
+
+  .booking::after{
+    content: none;
+  }
+
+  form::before{
+    content: none;
+  }
+  .booking::before{
+    content: none;
+  }
+  .footer .cont{
+    height: 100vh;
+  }
+  .footer .cont::before{
+    content: url(../img/Burger6.png);
+    position: absolute;
+    left: 0;
+    top: 685vh;
+  }
+  .footer .row .logo img{
+    margin-top: 120px;
+    margin-left: 10px;
+    filter: brightness(0) invert(1);
+  }
+  .footer .icon span{
+    padding:10px;
+     margin-top: 0;
+  }
+  .footer .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
